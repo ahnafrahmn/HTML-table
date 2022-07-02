@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        body{
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            border: 4px solid blue;
+            width: 600px;
+            height: 250px;
+            
+        }
+        th, td{
+            border: 2px solid rgb(5, 5, 81);
+        }
+    
+        
+        
+        th , thead{
+            text-align: center;
+            font-weight: bold;
+        }
+       
+
+
+
+    </style>
+</head>
+<body>
+    <p>Advanced HTML tag for Table using thead,tbody and tfoot</p>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="3">Purchase Order:2929365</td>
+                <td>Tutorial brain - 21st Oct 2022</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <span>Vendor:</span><br>
+                    ABC XYZ ltd. <br>
+                    DUMMY STREET <br>
+                    BUILDING 123 <br>
+                    JOAR SHAHARA, DHAKA
+                </td>
+                <td colspan="2">
+                    <span>SHIP TO:</span><br>
+                    AHNAF<br>
+                    RAHMAN HOMES<br>
+                    BASHUNDHARA R/A <br>
+                </td>
+            </tr>
+            <thead>
+                <tr>
+                    <td>Qry.</td>
+                    <td>Item Code.</td>
+                    <td>Description</td>
+                    <td>Unit Price</td>
+                </tr>
+            </thead>
+            <tr>
+                <td>100</td>
+                <td>IABCDE</td>
+                <td>Pencils</td>
+                <td>20.00</td>
+
+            </tr>
+            <tr>
+                <td>1000</td>
+                <td>IN007</td>
+                <td>Notebooks</td>
+                <td>100.00</td>
+
+            </tr>
+            <tr>
+                <td>500</td>
+                <td>ID365</td>
+                <td>Pens</td>
+                <td>70.00</td>
+
+            </tr>
+            <tr>
+                <td colspan="3"><center><b>Subtotal</b></center></td>
+                <td>190.00</td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><b>GST</b></center></td>
+                <td>5%</td>
+                <td>9.50</td>
+            </tr>
+            <tr>
+                <td colspan="3"><center><b>Grand Total</b></center></td>
+                <td>$ 199.50</td>
+            </tr>
+        
+
+            
+        </tbody>
+    </table>
+</body>
+</html>
